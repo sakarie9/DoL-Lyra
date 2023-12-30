@@ -1,0 +1,2 @@
+@rem Argument: GIF file (w/o extension). Creates a spritesheet PNG with same name in same folder. Removes original GIF
+@magick montage %1.gif -tile x1 -geometry "1x1+0+0<" -alpha On -background "rgba(0, 0, 0, 0.0)" -quality 100 %1.png && @del %1.gif

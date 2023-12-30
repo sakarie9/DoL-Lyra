@@ -1,0 +1,65 @@
+/* NOTE: Moving this file out of img/dolls will break combat spacing */
+#enemy-controls-cache {
+	display: none;
+}
+
+#enemy-controls-container {
+	width: 80vw;
+	height: 300px;
+	overflow-y: auto;
+	color: var(--900);
+}
+
+#all-controls {
+	display: flex;
+}
+
+#divsex {
+	margin-top: 250px;
+	margin-left: 300px;
+	background-color: var(--900);
+
+	/* display: inline; */
+}
+
+#side-panel {
+	width: 20vw;
+}
+
+#loadinfo {
+	display: inline;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	max-height: 30vh;
+	overflow-y: scroll;
+}
+
+/* 
+	#global-controls {
+		
+	} 
+*/
+
+.enemy-controller {
+	border-bottom: 2px solid var(--900);
+	background: var(--150);
+}
+
+.selector {
+	padding-right: 20px;
+}
+
+.appearance {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.actions {
+	background: var(--150);
+}
+
+.actions div {
+	display: flex;
+	flex-wrap: wrap;
+}
